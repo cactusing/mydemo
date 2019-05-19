@@ -1,0 +1,8 @@
+1.安装node.js 在node.js的基础上安装Less编译器
+2.cmd.exe  (node  -v 回车查看版本，然后输入npm  --version 回车查看版本)
+3. 安装Less编译器 cmd.exe中输入npm install -g less 然后回车
+4. 成功后即可，找到lessc.cmd的路径：
+打开webstorm，File >> Settings >> Tools 下配置File Watchers： Program输入框中.
+一般在C:\Users\Administrator\node_modules\.bin\lessc.cmd
+
+参考网址https://blog.csdn.net/st_sp_en/article/details/56497900
